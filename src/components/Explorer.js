@@ -12,7 +12,7 @@ class Explorer extends Component {
               <h3>People</h3>
               <hr />
               <Link to="/people">
-                <button className="btn btn-primary">Let's go!</button>
+                <button className="btn btn-primary">Let’s go!</button>
               </Link>
             </div>
           </div>
@@ -24,7 +24,7 @@ class Explorer extends Component {
               <h3>Starships</h3>
               <hr />
               <Link to="/starships">
-                <button className="btn btn-primary">Let's go!</button>
+                <button className="btn btn-primary">Let’s go!</button>
               </Link>
             </div>
           </div>
@@ -36,7 +36,7 @@ class Explorer extends Component {
               <h3>Films</h3>
               <hr />
               <Link to="/films">
-                <button className="btn btn-primary">Let's go!</button>
+                <button className="btn btn-primary">Let’s go!</button>
               </Link>
             </div>
           </div>

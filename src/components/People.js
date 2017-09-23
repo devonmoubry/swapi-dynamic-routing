@@ -6,10 +6,8 @@ class List extends Component {
     let data = this.props.people;
     let List = data.map(people => {
       let url = people.url;
-      // We use 'endpoint' to extract the endpoint from the API url.
       let endpoint = url.substr(url.indexOf("/api/") + 5);
       let films = people.films.map(films => {
-        // We use 'endpoint' to extract the endpoint from the API url.
         let endpoint = films.substr(films.indexOf("/api/") + 5);
         return (
           <li className="list-group-item" key={films}>

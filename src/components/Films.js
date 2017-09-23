@@ -6,11 +6,8 @@ class List extends Component {
     let data = this.props.films;
     let List = data.map(films => {
       let url = films.url;
-      // We use 'endpoint' to extract the endpoint's 'id from the API url.
-      // We will use this in the 'cards' header.
       let endpoint = url.substr(url.lastIndexOf("s/*") - 1, 1);
       let people = films.characters.map(people => {
-        // We use 'endpoint' to extract the endpoint from the API url.
         let endpoint = people.substr(people.indexOf("/api/") + 5);
         return (
           <li className="list-group-item" key={people}>

@@ -6,7 +6,6 @@ class List extends Component {
     let data = this.props.starships;
     let List = data.map(starships => {
       let films = starships.films.map(films => {
-        // We use 'endpoint' to extract the enpoint from the API url.
         let endpoint = films.substr(films.indexOf("/api/") + 5);
         return (
           <li className="list-group-item" key={films}>
